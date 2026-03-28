@@ -146,6 +146,15 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
     letter-spacing: 4px;
     text-transform: uppercase;
 }
+.banner-text p.banner-lead {
+    text-transform: none;
+    letter-spacing: 0.4px;
+    line-height: 1.7;
+    max-width: 44em;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.15em;
+}
 .header {
     background:url(../images/1.jpg) center no-repeat;
     background-size: cover;
@@ -186,6 +195,9 @@ h4.modal-title {
 }
 .services,.portfolio,.agile-edu,.w3_agileits-contact{
    	padding:4em 0;
+}
+#port.portfolio {
+	display: none !important;
 }
 .w3-exp{
     position: absolute;
@@ -688,6 +700,23 @@ span.edu-circle {
     line-height: 1.7;
     letter-spacing: 1px;
     margin-top: 1em;
+}
+.work1 p.exp-meta,
+.work-right1 p.exp-meta {
+    margin-top: 0.4em;
+    font-weight: 600;
+    font-size: 0.82em;
+    letter-spacing: 0.5px;
+}
+.work1 p.exp-skills,
+.work-right1 p.exp-skills {
+    font-style: italic;
+    opacity: 0.92;
+}
+.work1 a,
+.work-right1 a {
+    color: #ce7501;
+    text-decoration: underline;
 }
 .work-left.work-left2.sec-3 {
     padding: 0 6em 0 0;
