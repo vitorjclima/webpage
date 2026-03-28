@@ -356,7 +356,7 @@ h3.w3l-heading {
 }
 #about .about-photo {
 	position: relative;
-	z-index: 2;
+	z-index: 1;
 	margin-top: 2.5em;
 	width: 100%;
 	max-width: 340px;
@@ -378,7 +378,7 @@ h3.w3l-heading {
 	padding: 3em 2.5em 3.5em 4rem;
 	background: rgb(231, 160, 7);
 	border: 1px solid #ece4e4;
-	z-index: auto;
+	z-index: 2;
 	min-width: 0;
 }
 #about .w3ls-about-info p,
@@ -420,10 +420,12 @@ h3.w3l-heading {
 		justify-self: center;
 		max-width: 280px;
 		padding-right: 0;
+		z-index: auto;
 	}
 	#about .w3l-about {
 		margin-left: 0;
 		padding: 2.25em 1.75em 2.75em;
+		z-index: auto;
 	}
 }
 /*-- //about --*/
