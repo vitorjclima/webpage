@@ -299,6 +299,30 @@ h3.w3l-heading {
     letter-spacing: 1px;
     line-height: 1.8em;
 }
+.w3ls-about-info p + p {
+    margin-top: 1em;
+}
+.w3ls-about-info .about-skills-title {
+    margin-top: 1.25em;
+    margin-bottom: 0.5em;
+}
+.w3ls-about-info ul.about-skills {
+    color: #000000;
+    font-size: 1.05em;
+    letter-spacing: 0.5px;
+    line-height: 1.75em;
+    margin: 0 0 1em 0;
+    padding-left: 1.25em;
+    list-style-type: disc;
+}
+.w3ls-about-info ul.about-skills li {
+    margin-bottom: 0.35em;
+}
+.w3ls-about-info p.about-meta {
+    margin-top: 0.5em;
+    font-size: 1em;
+    line-height: 1.75em;
+}
 .w3ls-about-grids{
 	margin:4em 0 0 0;
 }
